@@ -6,7 +6,7 @@ How to use:
    
   1- Add `UseSerilog(SeriLogger.Configure)` in program.cs
   
-  2- Register `ICorrelationIdAccessor` in startup like 
+  2- Register `ICorrelationIdAccessor` in startup like :
       
       services.AddTransient<ICorrelationIdAccessor, CorrelationIdAccessor>();
       
